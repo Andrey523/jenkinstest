@@ -4,7 +4,7 @@ pipeline {
     agent {
         docker {
             image 'nagibator1992/jenkins-android:1.0.0'
-            label 'any'
+            label any
         }
     }
     stages {
